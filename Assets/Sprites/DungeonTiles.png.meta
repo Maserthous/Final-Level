@@ -1,0 +1,1519 @@
+fileFormatVersion: 2
+guid: f95d31eaea1a7324186e739351ec714e
+timeCreated: 1523573894
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: DungeonTiles_0
+    21300002: DungeonTiles_1
+    21300004: DungeonTiles_2
+    21300006: DungeonTiles_3
+    21300008: DungeonTiles_4
+    21300010: DungeonTiles_5
+    21300012: DungeonTiles_6
+    21300014: DungeonTiles_7
+    21300016: DungeonTiles_8
+    21300018: DungeonTiles_9
+    21300020: DungeonTiles_10
+    21300022: DungeonTiles_11
+    21300024: DungeonTiles_12
+    21300026: DungeonTiles_13
+    21300028: DungeonTiles_14
+    21300030: DungeonTiles_15
+    21300032: DungeonTiles_16
+    21300034: DungeonTiles_17
+    21300036: DungeonTiles_18
+    21300038: DungeonTiles_19
+    21300040: DungeonTiles_20
+    21300042: DungeonTiles_21
+    21300044: DungeonTiles_22
+    21300046: DungeonTiles_23
+    21300048: DungeonTiles_24
+    21300050: DungeonTiles_25
+    21300052: DungeonTiles_26
+    21300054: DungeonTiles_27
+    21300056: DungeonTiles_28
+    21300058: DungeonTiles_29
+    21300060: DungeonTiles_30
+    21300062: DungeonTiles_31
+    21300064: DungeonTiles_32
+    21300066: DungeonTiles_33
+    21300068: DungeonTiles_34
+    21300070: DungeonTiles_35
+    21300072: DungeonTiles_36
+    21300074: DungeonTiles_37
+    21300076: DungeonTiles_38
+    21300078: DungeonTiles_39
+    21300080: DungeonTiles_40
+    21300082: DungeonTiles_41
+    21300084: DungeonTiles_42
+    21300086: DungeonTiles_43
+    21300088: DungeonTiles_44
+    21300090: DungeonTiles_45
+    21300092: DungeonTiles_46
+    21300094: DungeonTiles_47
+    21300096: DungeonTiles_48
+    21300098: DungeonTiles_49
+    21300100: DungeonTiles_50
+    21300102: DungeonTiles_51
+    21300104: DungeonTiles_52
+    21300106: DungeonTiles_53
+    21300108: DungeonTiles_54
+    21300110: DungeonTiles_55
+    21300112: DungeonTiles_56
+    21300114: DungeonTiles_57
+    21300116: DungeonTiles_58
+    21300118: DungeonTiles_59
+    21300120: DungeonTiles_60
+    21300122: DungeonTiles_61
+    21300124: DungeonTiles_62
+    21300126: DungeonTiles_63
+    21300128: DungeonTiles_64
+    21300130: DungeonTiles_65
+    21300132: DungeonTiles_66
+    21300134: DungeonTiles_67
+    21300136: DungeonTiles_68
+    21300138: DungeonTiles_69
+    21300140: DungeonTiles_70
+    21300142: DungeonTiles_71
+    21300144: DungeonTiles_72
+    21300146: DungeonTiles_73
+    21300148: DungeonTiles_74
+    21300150: DungeonTiles_75
+    21300152: DungeonTiles_76
+    21300154: DungeonTiles_77
+    21300156: DungeonTiles_78
+    21300158: DungeonTiles_79
+    21300160: DungeonTiles_80
+    21300162: DungeonTiles_81
+    21300164: DungeonTiles_82
+    21300166: DungeonTiles_83
+    21300168: DungeonTiles_84
+    21300170: DungeonTiles_85
+    21300172: DungeonTiles_86
+    21300174: DungeonTiles_87
+    21300176: DungeonTiles_88
+    21300178: DungeonTiles_89
+    21300180: DungeonTiles_90
+    21300182: DungeonTiles_91
+    21300184: DungeonTiles_92
+    21300186: DungeonTiles_93
+    21300188: DungeonTiles_94
+    21300190: DungeonTiles_95
+    21300192: DungeonTiles_96
+    21300194: DungeonTiles_97
+    21300196: DungeonTiles_98
+    21300198: DungeonTiles_99
+    21300200: DungeonTiles_100
+    21300202: DungeonTiles_101
+    21300204: DungeonTiles_102
+    21300206: DungeonTiles_103
+    21300208: DungeonTiles_104
+    21300210: DungeonTiles_105
+    21300212: DungeonTiles_106
+    21300214: DungeonTiles_107
+    21300216: DungeonTiles_108
+    21300218: DungeonTiles_109
+    21300220: DungeonTiles_110
+    21300222: DungeonTiles_111
+    21300224: DungeonTiles_112
+    21300226: DungeonTiles_113
+    21300228: DungeonTiles_114
+    21300230: DungeonTiles_115
+    21300232: DungeonTiles_116
+    21300234: DungeonTiles_117
+    21300236: DungeonTiles_118
+    21300238: DungeonTiles_119
+    21300240: DungeonTiles_120
+    21300242: DungeonTiles_121
+    21300244: DungeonTiles_122
+    21300246: DungeonTiles_123
+    21300248: DungeonTiles_124
+    21300250: DungeonTiles_125
+    21300252: DungeonTiles_126
+    21300254: DungeonTiles_127
+    21300256: DungeonTiles_128
+    21300258: DungeonTiles_129
+    21300260: DungeonTiles_130
+    21300262: DungeonTiles_131
+    21300264: DungeonTiles_132
+    21300266: DungeonTiles_133
+    21300268: DungeonTiles_134
+    21300270: DungeonTiles_135
+    21300272: DungeonTiles_136
+    21300274: DungeonTiles_137
+    21300276: DungeonTiles_138
+    21300278: DungeonTiles_139
+    21300280: DungeonTiles_140
+    21300282: DungeonTiles_141
+    21300284: DungeonTiles_142
+    21300286: DungeonTiles_143
+    21300288: DungeonTiles_144
+    21300290: DungeonTiles_145
+    21300292: DungeonTiles_146
+    21300294: DungeonTiles_147
+    21300296: DungeonTiles_148
+    21300298: DungeonTiles_149
+    21300300: DungeonTiles_150
+    21300302: DungeonTiles_151
+    21300304: DungeonTiles_152
+    21300306: DungeonTiles_153
+    21300308: DungeonTiles_154
+    21300310: DungeonTiles_155
+    21300312: DungeonTiles_156
+    21300314: DungeonTiles_157
+    21300316: DungeonTiles_158
+    21300318: DungeonTiles_159
+    21300320: DungeonTiles_160
+    21300322: DungeonTiles_161
+    21300324: DungeonTiles_162
+    21300326: DungeonTiles_163
+    21300328: DungeonTiles_164
+    21300330: DungeonTiles_165
+    21300332: DungeonTiles_166
+    21300334: DungeonTiles_167
+    21300336: DungeonTiles_168
+    21300338: DungeonTiles_169
+    21300340: DungeonTiles_170
+    21300342: DungeonTiles_171
+    21300344: DungeonTiles_172
+    21300346: DungeonTiles_173
+    21300348: DungeonTiles_174
+    21300350: DungeonTiles_175
+    21300352: DungeonTiles_176
+    21300354: DungeonTiles_177
+    21300356: DungeonTiles_178
+    21300358: DungeonTiles_179
+    21300360: DungeonTiles_180
+    21300362: DungeonTiles_181
+    21300364: DungeonTiles_182
+    21300366: DungeonTiles_183
+    21300368: DungeonTiles_184
+    21300370: DungeonTiles_185
+    21300372: DungeonTiles_186
+    21300374: DungeonTiles_187
+    21300376: DungeonTiles_188
+    21300378: DungeonTiles_189
+    21300380: DungeonTiles_190
+    21300382: DungeonTiles_191
+    21300384: DungeonTiles_192
+    21300386: DungeonTiles_193
+    21300388: DungeonTiles_194
+    21300390: DungeonTiles_195
+    21300392: DungeonTiles_196
+    21300394: DungeonTiles_197
+    21300396: DungeonTiles_198
+    21300398: DungeonTiles_199
+    21300400: DungeonTiles_200
+    21300402: DungeonTiles_201
+    21300404: DungeonTiles_202
+    21300406: DungeonTiles_203
+    21300408: DungeonTiles_204
+    21300410: DungeonTiles_205
+    21300412: DungeonTiles_206
+    21300414: DungeonTiles_207
+    21300416: DungeonTiles_208
+    21300418: DungeonTiles_209
+    21300420: DungeonTiles_210
+    21300422: DungeonTiles_211
+    21300424: DungeonTiles_212
+    21300426: DungeonTiles_213
+    21300428: DungeonTiles_214
+    21300430: DungeonTiles_215
+    21300432: DungeonTiles_216
+    21300434: DungeonTiles_217
+    21300436: DungeonTiles_218
+    21300438: DungeonTiles_219
+    21300440: DungeonTiles_220
+    21300442: DungeonTiles_221
+    21300444: DungeonTiles_222
+    21300446: DungeonTiles_223
+    21300448: DungeonTiles_224
+    21300450: DungeonTiles_225
+    21300452: DungeonTiles_226
+    21300454: DungeonTiles_227
+    21300456: DungeonTiles_228
+    21300458: DungeonTiles_229
+    21300460: DungeonTiles_230
+    21300462: DungeonTiles_231
+    21300464: DungeonTiles_232
+    21300466: DungeonTiles_233
+    21300468: DungeonTiles_234
+    21300470: DungeonTiles_235
+    21300472: DungeonTiles_236
+    21300474: DungeonTiles_237
+    21300476: DungeonTiles_238
+    21300478: DungeonTiles_239
+    21300480: DungeonTiles_240
+    21300482: DungeonTiles_241
+    21300484: DungeonTiles_242
+    21300486: DungeonTiles_243
+    21300488: DungeonTiles_244
+    21300490: DungeonTiles_245
+    21300492: DungeonTiles_246
+    21300494: DungeonTiles_247
+    21300496: DungeonTiles_248
+    21300498: DungeonTiles_249
+    21300500: DungeonTiles_250
+    21300502: DungeonTiles_251
+    21300504: DungeonTiles_252
+    21300506: DungeonTiles_253
+    21300508: DungeonTiles_254
+    21300510: DungeonTiles_255
+    21300512: DungeonTiles_256
+    21300514: DungeonTiles_257
+    21300516: DungeonTiles_258
+    21300518: DungeonTiles_259
+    21300520: DungeonTiles_260
+    21300522: DungeonTiles_261
+    21300524: DungeonTiles_262
+    21300526: DungeonTiles_263
+    21300528: DungeonTiles_264
+    21300530: DungeonTiles_265
+    21300532: DungeonTiles_266
+    21300534: DungeonTiles_267
+    21300536: DungeonTiles_268
+    21300538: DungeonTiles_269
+    21300540: DungeonTiles_270
+    21300542: DungeonTiles_271
+    21300544: DungeonTiles_272
+    21300546: DungeonTiles_273
+    21300548: DungeonTiles_274
+    21300550: DungeonTiles_275
+    21300552: DungeonTiles_276
+    21300554: DungeonTiles_277
+    21300556: DungeonTiles_278
+    21300558: DungeonTiles_279
+    21300560: DungeonTiles_280
+    21300562: DungeonTiles_281
+    21300564: DungeonTiles_282
+    21300566: DungeonTiles_283
+    21300568: DungeonTiles_284
+    21300570: DungeonTiles_285
+    21300572: DungeonTiles_286
+    21300574: DungeonTiles_287
+    21300576: DungeonTiles_288
+    21300578: DungeonTiles_289
+    21300580: DungeonTiles_290
+    21300582: DungeonTiles_291
+    21300584: DungeonTiles_292
+    21300586: DungeonTiles_293
+    21300588: DungeonTiles_294
+    21300590: DungeonTiles_295
+    21300592: DungeonTiles_296
+    21300594: DungeonTiles_297
+    21300596: DungeonTiles_298
+    21300598: DungeonTiles_299
+    21300600: DungeonTiles_300
+    21300602: DungeonTiles_301
+    21300604: DungeonTiles_302
+    21300606: DungeonTiles_303
+    21300608: DungeonTiles_304
+    21300610: DungeonTiles_305
+    21300612: DungeonTiles_306
+    21300614: DungeonTiles_307
+    21300616: DungeonTiles_308
+    21300618: DungeonTiles_309
+    21300620: DungeonTiles_310
+    21300622: DungeonTiles_311
+    21300624: DungeonTiles_312
+    21300626: DungeonTiles_313
+    21300628: DungeonTiles_314
+    21300630: DungeonTiles_315
+    21300632: DungeonTiles_316
+    21300634: DungeonTiles_317
+    21300636: DungeonTiles_318
+    21300638: DungeonTiles_319
+    21300640: DungeonTiles_320
+    21300642: DungeonTiles_321
+    21300644: DungeonTiles_322
+    21300646: DungeonTiles_323
+    21300648: DungeonTiles_324
+    21300650: DungeonTiles_325
+    21300652: DungeonTiles_326
+    21300654: DungeonTiles_327
+    21300656: DungeonTiles_328
+    21300658: DungeonTiles_329
+    21300660: DungeonTiles_330
+    21300662: DungeonTiles_331
+    21300664: DungeonTiles_332
+    21300666: DungeonTiles_333
+    21300668: DungeonTiles_334
+    21300670: DungeonTiles_335
+    21300672: DungeonTiles_336
+    21300674: DungeonTiles_337
+    21300676: DungeonTiles_338
+    21300678: DungeonTiles_339
+    21300680: DungeonTiles_340
+    21300682: DungeonTiles_341
+    21300684: DungeonTiles_342
+    21300686: DungeonTiles_343
+    21300688: DungeonTiles_344
+    21300690: DungeonTiles_345
+    21300692: DungeonTiles_346
+    21300694: DungeonTiles_347
+    21300696: DungeonTiles_348
+    21300698: DungeonTiles_349
+    21300700: DungeonTiles_350
+    21300702: DungeonTiles_351
+    21300704: DungeonTiles_352
+    21300706: DungeonTiles_353
+    21300708: DungeonTiles_354
+    21300710: DungeonTiles_355
+    21300712: DungeonTiles_356
+    21300714: DungeonTiles_357
+    21300716: DungeonTiles_358
+    21300718: DungeonTiles_359
+    21300720: DungeonTiles_360
+    21300722: DungeonTiles_361
+    21300724: DungeonTiles_362
+    21300726: DungeonTiles_363
+    21300728: DungeonTiles_364
+    21300730: DungeonTiles_365
+    21300732: DungeonTiles_366
+    21300734: DungeonTiles_367
+    21300736: DungeonTiles_368
+    21300738: DungeonTiles_369
+    21300740: DungeonTiles_370
+    21300742: DungeonTiles_371
+    21300744: DungeonTiles_372
+    21300746: DungeonTiles_373
+    21300748: DungeonTiles_374
+    21300750: DungeonTiles_375
+    21300752: DungeonTiles_376
+    21300754: DungeonTiles_377
+    21300756: DungeonTiles_378
+    21300758: DungeonTiles_379
+    21300760: DungeonTiles_380
+    21300762: DungeonTiles_381
+    21300764: DungeonTiles_382
+    21300766: DungeonTiles_383
+    21300768: DungeonTiles_384
+    21300770: DungeonTiles_385
+    21300772: DungeonTiles_386
+    21300774: DungeonTiles_387
+    21300776: DungeonTiles_388
+    21300778: DungeonTiles_389
+    21300780: DungeonTiles_390
+    21300782: DungeonTiles_391
+    21300784: DungeonTiles_392
+    21300786: DungeonTiles_393
+    21300788: DungeonTiles_394
+    21300790: DungeonTiles_395
+    21300792: DungeonTiles_396
+    21300794: DungeonTiles_397
+    21300796: DungeonTiles_398
+    21300798: DungeonTiles_399
+    21300800: DungeonTiles_400
+    21300802: DungeonTiles_401
+    21300804: DungeonTiles_402
+    21300806: DungeonTiles_403
+    21300808: DungeonTiles_404
+    21300810: DungeonTiles_405
+    21300812: DungeonTiles_406
+    21300814: DungeonTiles_407
+    21300816: DungeonTiles_408
+    21300818: DungeonTiles_409
+    21300820: DungeonTiles_410
+    21300822: DungeonTiles_411
+    21300824: DungeonTiles_412
+    21300826: DungeonTiles_413
+    21300828: DungeonTiles_414
+    21300830: DungeonTiles_415
+    21300832: DungeonTiles_416
+    21300834: DungeonTiles_417
+    21300836: DungeonTiles_418
+    21300838: DungeonTiles_419
+    21300840: DungeonTiles_420
+    21300842: DungeonTiles_421
+    21300844: DungeonTiles_422
+    21300846: DungeonTiles_423
+    21300848: DungeonTiles_424
+    21300850: DungeonTiles_425
+    21300852: DungeonTiles_426
+    21300854: DungeonTiles_427
+    21300856: DungeonTiles_428
+    21300858: DungeonTiles_429
+    21300860: DungeonTiles_430
+    21300862: DungeonTiles_431
+    21300864: DungeonTiles_432
+    21300866: DungeonTiles_433
+    21300868: DungeonTiles_434
+    21300870: DungeonTiles_435
+    21300872: DungeonTiles_436
+    21300874: DungeonTiles_437
+    21300876: DungeonTiles_438
+    21300878: DungeonTiles_439
+    21300880: DungeonTiles_440
+    21300882: DungeonTiles_441
+    21300884: DungeonTiles_442
+    21300886: DungeonTiles_443
+    21300888: DungeonTiles_444
+    21300890: DungeonTiles_445
+    21300892: DungeonTiles_446
+    21300894: DungeonTiles_447
+    21300896: DungeonTiles_448
+    21300898: DungeonTiles_449
+    21300900: DungeonTiles_450
+    21300902: DungeonTiles_451
+    21300904: DungeonTiles_452
+    21300906: DungeonTiles_453
+    21300908: DungeonTiles_454
+    21300910: DungeonTiles_455
+    21300912: DungeonTiles_456
+    21300914: DungeonTiles_457
+    21300916: DungeonTiles_458
+    21300918: DungeonTiles_459
+    21300920: DungeonTiles_460
+    21300922: DungeonTiles_461
+    21300924: DungeonTiles_462
+    21300926: DungeonTiles_463
+    21300928: DungeonTiles_464
+    21300930: DungeonTiles_465
+    21300932: DungeonTiles_466
+    21300934: DungeonTiles_467
+    21300936: DungeonTiles_468
+    21300938: DungeonTiles_469
+    21300940: DungeonTiles_470
+    21300942: DungeonTiles_471
+    21300944: DungeonTiles_472
+    21300946: DungeonTiles_473
+    21300948: DungeonTiles_474
+    21300950: DungeonTiles_475
+    21300952: DungeonTiles_476
+    21300954: DungeonTiles_477
+    21300956: DungeonTiles_478
+    21300958: DungeonTiles_479
+    21300960: DungeonTiles_480
+    21300962: DungeonTiles_481
+    21300964: DungeonTiles_482
+    21300966: DungeonTiles_483
+    21300968: DungeonTiles_484
+    21300970: DungeonTiles_485
+    21300972: DungeonTiles_486
+    21300974: DungeonTiles_487
+    21300976: DungeonTiles_488
+    21300978: DungeonTiles_489
+    21300980: DungeonTiles_490
+    21300982: DungeonTiles_491
+    21300984: DungeonTiles_492
+    21300986: DungeonTiles_493
+    21300988: DungeonTiles_494
+    21300990: DungeonTiles_495
+    21300992: DungeonTiles_496
+    21300994: DungeonTiles_497
+    21300996: DungeonTiles_498
+    21300998: DungeonTiles_499
+    21301000: DungeonTiles_500
+    21301002: DungeonTiles_501
+    21301004: DungeonTiles_502
+    21301006: DungeonTiles_503
+    21301008: DungeonTiles_504
+    21301010: DungeonTiles_505
+    21301012: DungeonTiles_506
+    21301014: DungeonTiles_507
+    21301016: DungeonTiles_508
+    21301018: DungeonTiles_509
+    21301020: DungeonTiles_510
+    21301022: DungeonTiles_511
+    21301024: DungeonTiles_512
+    21301026: DungeonTiles_513
+    21301028: DungeonTiles_514
+    21301030: DungeonTiles_515
+    21301032: DungeonTiles_516
+    21301034: DungeonTiles_517
+    21301036: DungeonTiles_518
+    21301038: DungeonTiles_519
+    21301040: DungeonTiles_520
+    21301042: DungeonTiles_521
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DungeonTiles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_18
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_20
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_21
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_22
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_23
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_24
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_25
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_29
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_31
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_33
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_35
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_36
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_37
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_43
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_44
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_45
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_47
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_48
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_49
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_50
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_51
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_59
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_60
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_61
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_62
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_63
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DungeonTiles_64
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
