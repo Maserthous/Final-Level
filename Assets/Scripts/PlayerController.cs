@@ -34,6 +34,7 @@ public class PlayerController : MonoBehaviour {
 
         faceRight = true;
         attacking = false;
+        attackTime = attackCooldown;
 	}
 
     private void Update()
@@ -46,7 +47,7 @@ public class PlayerController : MonoBehaviour {
         }
 
         attackTime += Time.deltaTime;
-        if ((grounded && attackTime >= attackCooldown) && Input.GetButtonDown("Fire1"))
+        if ((attackTime >= attackCooldown) && Input.GetButtonDown("Fire1"))
         {
             anim.SetBool("attack", true);
         }
@@ -59,9 +60,10 @@ public class PlayerController : MonoBehaviour {
         
         move = Input.GetAxis("Horizontal");
 
+        rBody.velocity = new Vector2(move * moveSpeed, rBody.velocity.y);
         if (!attacking)
         {
-            rBody.velocity = new Vector2(move * moveSpeed, rBody.velocity.y);
+            
 
             anim.SetFloat("move", Mathf.Abs(move));
             if (move < 0 && faceRight)

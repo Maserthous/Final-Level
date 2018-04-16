@@ -1161,13 +1161,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2.5
-  jumpForce: 2.25
+  jumpForce: 5
   groundCheck: {fileID: 907246991}
   isGround:
     serializedVersion: 2
     m_Bits: 4294966495
   attackHitBox: {fileID: 977180915}
-  attackCooldown: 2
+  attackCooldown: 1.75
 --- !u!70 &1870228833
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
