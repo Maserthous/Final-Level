@@ -5,8 +5,8 @@ using UnityEngine;
 public class SpinyScript : MonoBehaviour {
 
     public float speed; // 1 = 2 blocks per second
-    public float turnTime;
-    public float timeSinceTurn;
+    public float turnTime; // Seconds bewteen turns
+    public float timeSinceTurn; // Time since last turn
     public bool faceRight;
     public int damage;
 
