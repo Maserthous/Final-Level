@@ -5,7 +5,7 @@ using UnityEngine;
 public class DestroyByContact : MonoBehaviour {
 
  
-    public GameObject explosionPlayer;
+    public GameObject playerDeath;
 
     
 
@@ -16,14 +16,14 @@ public class DestroyByContact : MonoBehaviour {
     }
         void OnTriggerEnter2D(Collider2D other)
         {
-        if(other.tag == "Boundary"||other.tag == "Hazard")
+        if(other.tag == "Boundary"||other.tag == "Hazard" || other.tag == "Platform")
         {
             return;
         }
 
         if(other.tag == "Player")
         {
-            Instantiate(explosionPlayer, other.transform.position, other.transform.rotation);
+            Instantiate(playerDeath, other.transform.position, other.transform.rotation);
         }
 
 
