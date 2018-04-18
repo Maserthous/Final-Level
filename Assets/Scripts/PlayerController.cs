@@ -2,44 +2,50 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour {
+public class PlayerController : MonoBehaviour
+{
+    private Rigidbody2D rBody;
+    private Animator anim;
 
     [Header("Movement")]
     public float moveSpeed;
+    public float moveSpeedAttack;
 
     private float move;
     private bool faceRight;
 
     [Header("Jumping")]
     public float jumpForce;
+    public float jumpDelay;
     public Transform groundCheck;
     public LayerMask isGround;
 
     private bool grounded;
-    private float groundRadius;
+    private float groundRadius = 0.1f;
+    private float jumpReset;
 
-    [Header("Attacking")]
+    [Header("Combat")]
     public GameObject attackHitBox;
     public float attackCooldown;
+    public float invincibleTime;
 
     private float attackTime = 0.0f;
     private bool attacking;
 
-    private Rigidbody2D rBody;
-    private Animator anim;
-	
-	void Start () {
+    void Start()
+    {
         rBody = this.GetComponent<Rigidbody2D>();
         anim = this.GetComponent<Animator>();
 
         faceRight = true;
         attacking = false;
         attackTime = attackCooldown;
-	}
+    }
 
     private void Update()
     {
-        if (grounded && Input.GetButton("Jump"))
+        jumpReset += Time.deltaTime;
+        if (grounded && Input.GetButtonDown("Jump") && jumpReset >= jumpDelay)
         {
             grounded = false;
             anim.SetBool("ground", false);
@@ -57,19 +63,22 @@ public class PlayerController : MonoBehaviour {
     {
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, isGround);
         anim.SetBool("ground", grounded);
-        
-        move = Input.GetAxis("Horizontal");
 
-        rBody.velocity = new Vector2(move * moveSpeed, rBody.velocity.y);
         if (!attacking)
         {
-            
+            move = Input.GetAxis("Horizontal");
+            rBody.velocity = new Vector2(move * moveSpeed, rBody.velocity.y);
 
             anim.SetFloat("move", Mathf.Abs(move));
             if (move < 0 && faceRight)
                 Flip();
             else if (move > 0 && !faceRight)
                 Flip();
+        }
+        else
+        {
+            move = Input.GetAxis("Horizontal");
+            rBody.velocity = new Vector2(move * moveSpeedAttack, rBody.velocity.y);
         }
     }
 
@@ -81,12 +90,12 @@ public class PlayerController : MonoBehaviour {
         transform.localScale = scale;
     }
 
-    private void EnableAttacking()
+    public void EnableAttacking()
     {
         attacking = true;
     }
 
-    private void DisableAttacking()
+    public void DisableAttacking()
     {
         attacking = false;
         anim.SetBool("attack", false);

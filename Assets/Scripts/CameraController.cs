@@ -6,12 +6,14 @@ public class CameraController : MonoBehaviour {
 
     public GameObject player;
     public Vector3 offset;
+    public bool on;
 
     private void Start(){
         
     }
 
     void LateUpdate () {
-        transform.position = player.transform.position + offset;
+        if(on)
+            transform.position = player.transform.position + offset;
 	}
 }
