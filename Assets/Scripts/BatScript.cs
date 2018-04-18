@@ -6,10 +6,13 @@ public class BatScript : MonoBehaviour {
 
     public float speed;
     public float minDistance;
+    public float maxDistance;
     public float attackMult;
     public float attackDelay;
     public bool faceLeft;
     public bool attacks;
+    
+
 
 
     private Rigidbody2D rBody;
@@ -49,7 +52,7 @@ public class BatScript : MonoBehaviour {
 
         if (attacks)
         {
-            if (distance > minDistance && !isAttacking)
+            if (distance > minDistance && distance < maxDistance && !isAttacking)
             {
                 anim.SetBool("attack", false);
                 rBody.velocity = (target.position - this.transform.position) * speed;
@@ -63,7 +66,7 @@ public class BatScript : MonoBehaviour {
         }
         else
         {
-            if (distance > minDistance && !isAttacking)
+            if (distance > minDistance && distance < maxDistance && !isAttacking)
             {
                 anim.SetBool("attack", false);
                 rBody.velocity = (target.position - this.transform.position) * speed;

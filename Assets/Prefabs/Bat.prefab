@@ -27,7 +27,7 @@ GameObject:
   - component: {fileID: 50183337309805910}
   m_Layer: 0
   m_Name: Bat
-  m_TagString: Hazard
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,9 +123,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.3
   minDistance: 4
-  attackMult: 5
-  attackDelay: 2
+  maxDistance: 10
+  attackMult: 4
+  attackDelay: 1.8
   faceLeft: 1
+  attacks: 0
 --- !u!114 &114355913592348830
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -172,7 +174,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 5b1d2bec58b1dad4899f32bb3fd66c7f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

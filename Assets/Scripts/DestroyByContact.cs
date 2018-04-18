@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class DestroyByContact : MonoBehaviour {
 
- 
+
     public GameObject playerDeath;
 
-    
+
 
     // Use this for initialization
     void Start()
     {
-       
+
     }
-        void OnTriggerEnter2D(Collider2D other)
-        {
-        if(other.tag == "Boundary"||other.tag == "Hazard" || other.tag == "Platform" || other.tag == "Enemy")
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Boundary" || other.tag == "Hazard" || other.tag == "Platform" || other.tag == "Enemy" || other.tag == "Hitbox")
         {
             return;
         }
