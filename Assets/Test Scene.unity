@@ -937,6 +937,23 @@ CompositeCollider2D:
   m_CompositePaths:
     m_Paths: []
   m_VertexDistance: 0.0005
+--- !u!1 &977180915 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1328320828729500, guid: 317b65bc5b3f73b40af41e2b0ca6656d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1979004844}
+--- !u!114 &977180918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 977180915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 345814e4f12e51f4d940a0db8075364e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyDeath: {fileID: 1309722617113604, guid: 9b3c9b4d8613b7a4e9ee321bd296b338, type: 2}
 --- !u!1 &993484857
 GameObject:
   m_ObjectHideFlags: 0
@@ -1072,6 +1089,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1312448417439132, guid: 130d6954ffa2c5e45b32894950f5b76b, type: 2}
+      propertyPath: m_TagString
+      value: Hazard
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 130d6954ffa2c5e45b32894950f5b76b, type: 2}
   m_IsPrefabParent: 0
@@ -1180,7 +1201,11 @@ Prefab:
     - target: {fileID: 114264056468116984, guid: c80b148b5bb7ab34c9e0e4aed698960c,
         type: 2}
       propertyPath: attacks
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1408474950967658, guid: c80b148b5bb7ab34c9e0e4aed698960c, type: 2}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c80b148b5bb7ab34c9e0e4aed698960c, type: 2}
@@ -1194,7 +1219,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4372633424724074, guid: 317b65bc5b3f73b40af41e2b0ca6656d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -3.07
+      value: -3.08
       objectReference: {fileID: 0}
     - target: {fileID: 4372633424724074, guid: 317b65bc5b3f73b40af41e2b0ca6656d, type: 2}
       propertyPath: m_LocalPosition.y

@@ -16,7 +16,7 @@ public class DestroyByContact : MonoBehaviour {
     }
         void OnTriggerEnter2D(Collider2D other)
         {
-        if(other.tag == "Boundary"||other.tag == "Hazard" || other.tag == "Platform")
+        if(other.tag == "Boundary"||other.tag == "Hazard" || other.tag == "Platform" || other.tag == "Enemy")
         {
             return;
         }
