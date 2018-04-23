@@ -16,13 +16,17 @@ public class PlayerController : MonoBehaviour
 
     [Header("Jumping")]
     public float jumpForce;
-    public float jumpDelay;
+    public float jumpShortMult;
+    public float jumpMax;
+    //public float jumpDelay;
     public Transform groundCheck;
     public LayerMask isGround;
 
     private bool grounded;
     private float groundRadius = 0.1f;
-    private float jumpReset;
+    //private float jumpReset;
+    private bool jumping;
+    public float holdTime;
 
     [Header("Combat")]
     public GameObject attackHitBox;
@@ -44,13 +48,33 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        jumpReset += Time.deltaTime;
+        /*jumpReset += Time.deltaTime;
         if (grounded && Input.GetButtonDown("Jump") && jumpReset >= jumpDelay)
         {
-            grounded = false;
             anim.SetBool("ground", false);
             rBody.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+        }*/
+
+        if (grounded && Input.GetButtonDown("Jump") && !jumping)
+        {
+            holdTime = 0;
+            jumping = true;
         }
+        if (jumping && grounded)
+        {
+            holdTime += Time.deltaTime;
+            if (holdTime >= jumpMax)
+            {
+                jumping = false;
+                rBody.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+            }
+            else if (Input.GetButtonUp("Jump"))
+            {
+                jumping = false;
+                rBody.AddForce(new Vector2(0, jumpForce * jumpShortMult), ForceMode2D.Impulse);
+            }
+        }
+
 
         attackTime += Time.deltaTime;
         if ((attackTime >= attackCooldown) && Input.GetButtonDown("Fire1"))
