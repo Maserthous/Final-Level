@@ -21,7 +21,8 @@ public class GameController : MonoBehaviour {
     private PlayerController pc;
     private float iTimePassed;
     private bool invincible;
-	
+    private AudioSource hitSound;
+
     [Header("Collapsible Platforms")]
     public float respawnTime;
     public GameObject[] platforms;
@@ -32,6 +33,7 @@ public class GameController : MonoBehaviour {
         game = this;
         pc = player.GetComponent<PlayerController>();
         StartCoroutine(platRespawn());
+        hitSound = this.GetComponent<AudioSource>();
         UpdateHealth();
       
 
@@ -66,8 +68,10 @@ public class GameController : MonoBehaviour {
     {
         if (!invincible)
         {
+
             playerHealth -= damage;
             UpdateHealth();
+            hitSound.Play();
             if (playerHealth <= 0)
             {
                 Death();

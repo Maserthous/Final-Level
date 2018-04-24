@@ -9,13 +9,14 @@ public class CollapsablePlatforms : MonoBehaviour {
     public float animationSpeed;
 
 
-    
+    private AudioSource rumble;
     private Animator anim;
     private float time;
 
 	// Use this for initialization
 	void Start () {
         anim = this.GetComponent<Animator>();
+        rumble = this.GetComponent <AudioSource>();
         animationStop();
     }
 	
@@ -29,6 +30,7 @@ public class CollapsablePlatforms : MonoBehaviour {
         if (other.tag ==("Player"))
         {
             anim.speed = animationSpeed;
+            rumble.Play();
             Invoke("animationStop", collapseTime - .0000001f);
             Invoke("disable", collapseTime);    
 

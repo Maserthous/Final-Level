@@ -30,9 +30,12 @@ public class PlayerController : MonoBehaviour
     public GameObject attackHitBox;
     public float attackCooldown;
     public float invincibleTime;
+    public float soundDelay;
+
 
     private float attackTime = 0.0f;
     private bool attacking;
+    private AudioSource attackSound;
 
     [Header("Misc")]
     private bool key = false;
@@ -41,7 +44,7 @@ public class PlayerController : MonoBehaviour
     {
         rBody = this.GetComponent<Rigidbody2D>();
         anim = this.GetComponent<Animator>();
-
+        attackSound = this.GetComponent<AudioSource>();
         faceRight = true;
         attacking = false;
         attackTime = attackCooldown;
@@ -73,6 +76,7 @@ public class PlayerController : MonoBehaviour
         if ((attackTime >= attackCooldown) && Input.GetButtonDown("Fire1"))
         {
             anim.SetBool("attack", true);
+            
         }
     }
 
@@ -110,6 +114,7 @@ public class PlayerController : MonoBehaviour
     public void EnableAttacking()
     {
         attacking = true;
+        attackSound.PlayDelayed(soundDelay);
     }
 
     public void DisableAttacking()
