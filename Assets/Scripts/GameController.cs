@@ -10,14 +10,36 @@ public class GameController : MonoBehaviour {
     [Header("Player")]
     public GameObject player;
     public int playerHealth;
-
-    private bool hasKey;
 	
-	void Start () {
-		
-	}
+    [Header("Collapsible Platforms")]
+    public float respawnTime;
+    public GameObject[] platforms;
+    
 
-	void Update () {
+
+
+    private float disabledTime;
+    void Start () {
 		
 	}
+	
+	
+	void Update () {
+
+        for (int i = 0; i < platforms.Length; i++)
+        {
+            if (!platforms[i].activeSelf)
+            {
+
+                disabledTime += Time.deltaTime;
+                Debug.Log(disabledTime);
+                if (disabledTime >= respawnTime)
+                {
+                    
+                    platforms[i].SetActive(true);
+                    disabledTime = 0;
+                }
+            }
+        }
+    }
 }
