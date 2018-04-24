@@ -67,11 +67,12 @@ public class GameController : MonoBehaviour {
         if (!invincible)
         {
             playerHealth -= damage;
-
+            UpdateHealth();
             if (playerHealth <= 0)
             {
                 Death();
             }
+            StartCoroutine(Invincible());
         }
     }
 
