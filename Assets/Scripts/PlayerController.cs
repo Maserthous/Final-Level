@@ -137,8 +137,8 @@ public class PlayerController : MonoBehaviour
         attackHitBox.SetActive(false);
     }
 
-    public void Key()
+    public void Key(bool hasKey)
     {
-        anim.SetBool("key", true);
+        anim.SetBool("key", hasKey);
     }
 }
