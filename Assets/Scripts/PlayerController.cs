@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask isGround;
 
     private bool grounded;
-    private float groundRadius = 0.1f;
+    private float groundRadius = 0.05f;
     //private float jumpReset;
     private bool jumping;
     public float holdTime;
@@ -75,12 +75,14 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-
         attackTime += Time.deltaTime;
         if ((attackTime >= attackCooldown) && Input.GetButtonDown("Fire1"))
         {
             anim.SetBool("attack", true);
         }
+
+        if (Input.GetButtonDown("Fire2"))
+            anim.SetBool("key", !anim.GetBool("key"));
     }
 
     private void FixedUpdate()
@@ -133,5 +135,10 @@ public class PlayerController : MonoBehaviour
     public void DisableHitBox()
     {
         attackHitBox.SetActive(false);
+    }
+
+    public void Key()
+    {
+        anim.SetBool("key", true);
     }
 }

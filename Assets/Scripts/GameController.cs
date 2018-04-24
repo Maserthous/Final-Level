@@ -10,12 +10,13 @@ public class GameController : MonoBehaviour {
     [Header("Player")]
     public GameObject player;
     public int playerHealth;
+
+    private bool hasKey;
 	
 	void Start () {
 		
 	}
-	
-	
+
 	void Update () {
 		
 	}
