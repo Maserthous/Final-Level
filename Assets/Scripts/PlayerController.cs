@@ -133,9 +133,4 @@ public class PlayerController : MonoBehaviour
         key = hasKey;
         anim.SetBool("key", hasKey);
     }
-
-    public bool FaceRight()
-    {
-        return faceRight;
-    }
 }
