@@ -18,13 +18,11 @@ public class PlayerController : MonoBehaviour
     public float jumpForce;
     public float jumpShortMult;
     public float jumpMax;
-    //public float jumpDelay;
     public Transform groundCheck;
     public LayerMask isGround;
 
     private bool grounded;
     private float groundRadius = 0.05f;
-    //private float jumpReset;
     private bool jumping;
     private float holdTime;
 
@@ -35,6 +33,9 @@ public class PlayerController : MonoBehaviour
 
     private float attackTime = 0.0f;
     private bool attacking;
+
+    [Header("Misc")]
+    private bool key = false;
 
     void Start()
     {
@@ -48,13 +49,6 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        /*jumpReset += Time.deltaTime;
-        if (grounded && Input.GetButtonDown("Jump") && jumpReset >= jumpDelay)
-        {
-            anim.SetBool("ground", false);
-            rBody.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
-        }*/
-
         if (grounded && Input.GetButtonDown("Jump") && !jumping)
         {
             holdTime = 0;
@@ -80,9 +74,6 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetBool("attack", true);
         }
-
-        if (Input.GetButtonDown("Fire2"))
-            anim.SetBool("key", !anim.GetBool("key"));
     }
 
     private void FixedUpdate()
@@ -139,6 +130,7 @@ public class PlayerController : MonoBehaviour
 
     public void Key(bool hasKey)
     {
+        key = hasKey;
         anim.SetBool("key", hasKey);
     }
 }

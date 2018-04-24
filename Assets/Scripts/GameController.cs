@@ -15,9 +15,12 @@ public class GameController : MonoBehaviour {
     public GameObject player;
     public int playerHealth;
     public GameObject playerDeath;
+    public float iTime;
 
     private bool key;
     private PlayerController pc;
+    private float iTimePassed;
+    private bool invincible;
 	
     [Header("Collapsible Platforms")]
     public float respawnTime;
@@ -36,6 +39,7 @@ public class GameController : MonoBehaviour {
 	
 	
 	void Update () {
+        
     }
 
     public void UpdateHealth()
@@ -60,11 +64,14 @@ public class GameController : MonoBehaviour {
 
     public void Damage(int damage)
     {
-        playerHealth -= damage;
-
-        if (playerHealth <= 0)
+        if (!invincible)
         {
-            Death();
+            playerHealth -= damage;
+
+            if (playerHealth <= 0)
+            {
+                Death();
+            }
         }
     }
 
@@ -72,6 +79,13 @@ public class GameController : MonoBehaviour {
     {
         Instantiate(playerDeath, player.transform.position, player.transform.rotation);
         Destroy(player);
+    }
+
+    IEnumerator Invincible()
+    {
+        invincible = true;
+        yield return new WaitForSeconds(iTime);
+        invincible = false;
     }
 
     IEnumerator platRespawn()
