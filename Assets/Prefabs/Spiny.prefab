@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4641561353509194}
   - component: {fileID: 212592551240433524}
   - component: {fileID: 114163023866234176}
-  - component: {fileID: 114331980706018854}
+  - component: {fileID: 114309742168630378}
   - component: {fileID: 50519203287268184}
   - component: {fileID: 70272633422945974}
   m_Layer: 9
@@ -95,7 +95,7 @@ MonoBehaviour:
   timeSinceTurn: 0
   faceRight: 0
   damage: 0
---- !u!114 &114331980706018854
+--- !u!114 &114309742168630378
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -103,10 +103,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1312448417439132}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67e82bc49033b8647a68532962bbd879, type: 3}
+  m_Script: {fileID: 11500000, guid: 3189aced71bf25b4da2c4ce726cfe899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  playerDeath: {fileID: 1406548860153936, guid: 75a4bff558ba11546b43471ba7bd0d6b,
+    type: 2}
 --- !u!212 &212592551240433524
 SpriteRenderer:
   m_ObjectHideFlags: 1
