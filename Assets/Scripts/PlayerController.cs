@@ -60,7 +60,7 @@ public class PlayerController : MonoBehaviour
             holdTime = 0;
             jumping = true;
         }
-        if (jumping && grounded)
+        if (jumping)
         {
             holdTime += Time.deltaTime;
             if (holdTime >= jumpMax)

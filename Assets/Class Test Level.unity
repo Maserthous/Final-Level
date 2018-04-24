@@ -42378,7 +42378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textHealth: {fileID: 0}
   player: {fileID: 1545940150}
-  playerHealth: 1
+  playerHealth: 3
   playerDeath: {fileID: 1406548860153936, guid: 75a4bff558ba11546b43471ba7bd0d6b,
     type: 2}
   respawnTime: 2
