@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -22,35 +23,19 @@ public class GameController : MonoBehaviour {
     public float respawnTime;
     public GameObject[] platforms;
     
-    private float disabledTime;
+    
 
     void Start () {
         game = this;
         pc = player.GetComponent<PlayerController>();
-
+        StartCoroutine(platRespawn());
         UpdateHealth();
+      
+
     }
 	
 	
 	void Update () {
-
-        
-
-        for (int i = 0; i < platforms.Length; i++)
-        {
-            if (!platforms[i].activeSelf)
-            {
-
-                disabledTime += Time.deltaTime;
-                Debug.Log(disabledTime);
-                if (disabledTime >= respawnTime)
-                {
-                    
-                    platforms[i].SetActive(true);
-                    disabledTime = 0;
-                }
-            }
-        }
     }
 
     public void UpdateHealth()
@@ -87,5 +72,29 @@ public class GameController : MonoBehaviour {
     {
         Instantiate(playerDeath, player.transform.position, player.transform.rotation);
         Destroy(player);
+    }
+
+    IEnumerator platRespawn()
+    {
+        
+        while (true)
+        {
+            for (int i = 0; i<platforms.Length;i++)
+            {
+                if (!platforms[i].activeSelf)
+                {
+
+                    yield return new WaitForSeconds(respawnTime);
+                    
+                    platforms[i].SetActive(true);
+                    
+                   
+                    
+                }
+                
+            }
+            yield return new WaitForFixedUpdate();
+            
+        }
     }
 }
