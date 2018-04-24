@@ -676,7 +676,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4739640523484032, guid: ede542792e7643f4dbd644613aa61d12, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4739640523484032, guid: ede542792e7643f4dbd644613aa61d12, type: 2}
       propertyPath: m_LocalPosition.y
@@ -12316,7 +12316,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textHealth: {fileID: 0}
   player: {fileID: 1545940150}
-  playerHealth: 0
+  playerHealth: 1
+  playerDeath: {fileID: 1406548860153936, guid: 75a4bff558ba11546b43471ba7bd0d6b,
+    type: 2}
   respawnTime: 0
   platforms: []
 --- !u!1 &1805897954

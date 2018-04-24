@@ -1,17 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour {
 
     public static GameController game;
 
     [Header("GUI")]
-    public GameObject textHealth;
+    public Text textHealth;
 
     [Header("Player")]
     public GameObject player;
     public int playerHealth;
+    public GameObject playerDeath;
 
     private bool key;
     private PlayerController pc;
@@ -25,10 +27,14 @@ public class GameController : MonoBehaviour {
     void Start () {
         game = this;
         pc = player.GetComponent<PlayerController>();
-	}
+
+        UpdateHealth();
+    }
 	
 	
 	void Update () {
+
+        
 
         for (int i = 0; i < platforms.Length; i++)
         {
@@ -47,6 +53,15 @@ public class GameController : MonoBehaviour {
         }
     }
 
+    public void UpdateHealth()
+    {
+        textHealth.text = "";
+        for (int i = 1; i <= playerHealth; i++)
+        {
+            textHealth.text += "\u2764";
+        }
+    }
+
     public void SetKey(bool newKey)
     {
         key = newKey;
@@ -56,5 +71,21 @@ public class GameController : MonoBehaviour {
     public bool GetKey()
     {
         return key;
+    }
+
+    public void Damage(int damage)
+    {
+        playerHealth -= damage;
+
+        if (playerHealth <= 0)
+        {
+            Death();
+        }
+    }
+
+    public void Death()
+    {
+        Instantiate(playerDeath, player.transform.position, player.transform.rotation);
+        Destroy(player);
     }
 }

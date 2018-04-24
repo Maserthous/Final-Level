@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
     private float groundRadius = 0.05f;
     //private float jumpReset;
     private bool jumping;
-    public float holdTime;
+    private float holdTime;
 
     [Header("Combat")]
     public GameObject attackHitBox;
