@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 8195094280937480360}
   - component: {fileID: 3664157344092837316}
   - component: {fileID: 2113883506776908104}
-  - component: {fileID: 114337075636566940}
+  - component: {fileID: 114664457284775570}
   m_Layer: 0
   m_Name: Hazards
   m_TagString: Hazard
@@ -147,7 +147,7 @@ CompositeCollider2D:
   m_CompositePaths:
     m_Paths: []
   m_VertexDistance: 0.0005
---- !u!114 &114337075636566940
+--- !u!114 &114664457284775570
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -155,11 +155,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1669411867062264}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3189aced71bf25b4da2c4ce726cfe899, type: 3}
+  m_Script: {fileID: 11500000, guid: 67e82bc49033b8647a68532962bbd879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerDeath: {fileID: 1406548860153936, guid: 75a4bff558ba11546b43471ba7bd0d6b,
-    type: 2}
+  damage: 2
 --- !u!19719996 &2113883505839686736
 TilemapCollider2D:
   m_ObjectHideFlags: 1

@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4427052567578628}
   - component: {fileID: 212472385704727156}
   - component: {fileID: 95270487416877216}
-  - component: {fileID: 114355913592348830}
+  - component: {fileID: 114330009862761288}
   - component: {fileID: 114264056468116984}
   - component: {fileID: 60601822400109358}
   - component: {fileID: 50183337309805910}
@@ -211,7 +211,7 @@ MonoBehaviour:
   attackDelay: 2.5
   faceLeft: 1
   attacks: 0
---- !u!114 &114355913592348830
+--- !u!114 &114330009862761288
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -219,11 +219,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1408474950967658}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3189aced71bf25b4da2c4ce726cfe899, type: 3}
+  m_Script: {fileID: 11500000, guid: 67e82bc49033b8647a68532962bbd879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerDeath: {fileID: 1406548860153936, guid: 75a4bff558ba11546b43471ba7bd0d6b,
-    type: 2}
+  damage: 1
 --- !u!212 &212472385704727156
 SpriteRenderer:
   m_ObjectHideFlags: 1
