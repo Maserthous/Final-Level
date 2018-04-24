@@ -16,6 +16,7 @@ public class GameController : MonoBehaviour {
     public int playerHealth;
     public GameObject playerDeath;
     public float iTime;
+    public AudioSource keyPickup;
 
     private bool key;
     private PlayerController pc;
@@ -55,6 +56,7 @@ public class GameController : MonoBehaviour {
 
     public void SetKey(bool newKey)
     {
+        keyPickup.Play();
         key = newKey;
         pc.Key(key);
     }

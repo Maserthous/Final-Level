@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     [Header("Movement")]
     public float moveSpeed;
     public float moveSpeedAttack;
+    
 
     private float move;
     private bool faceRight;
@@ -38,7 +39,9 @@ public class PlayerController : MonoBehaviour
     private AudioSource attackSound;
 
     [Header("Misc")]
+    
     private bool key = false;
+
 
     void Start()
     {
@@ -89,7 +92,7 @@ public class PlayerController : MonoBehaviour
         {
             move = Input.GetAxis("Horizontal");
             rBody.velocity = new Vector2(move * moveSpeed, rBody.velocity.y);
-
+            
             anim.SetFloat("move", Mathf.Abs(move));
             if (move < 0 && faceRight)
                 Flip();
@@ -101,6 +104,8 @@ public class PlayerController : MonoBehaviour
             move = Input.GetAxis("Horizontal");
             rBody.velocity = new Vector2(move * moveSpeedAttack, rBody.velocity.y);
         }
+
+       
     }
 
     private void Flip()
@@ -137,10 +142,13 @@ public class PlayerController : MonoBehaviour
     {
         key = hasKey;
         anim.SetBool("key", hasKey);
+        
     }
 
     public bool FaceRight()
     {
         return faceRight;
     }
+
+  
 }

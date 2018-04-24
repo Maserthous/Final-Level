@@ -485,6 +485,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyDeath: {fileID: 1309722617113604, guid: 9b3c9b4d8613b7a4e9ee321bd296b338, type: 2}
+  xForce: 1
+  yForce: 2
+  player: {fileID: 1545940150}
 --- !u!1 &296996785 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1661826488107018, guid: 13617b74c250a4c47baaed3181e7eef5,
@@ -611,11 +614,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4427052567578628, guid: c80b148b5bb7ab34c9e0e4aed698960c, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 1.2584848
+      value: 3.51
       objectReference: {fileID: 0}
     - target: {fileID: 4427052567578628, guid: c80b148b5bb7ab34c9e0e4aed698960c, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -2.3801413
+      value: -5.4
       objectReference: {fileID: 0}
     - target: {fileID: 4427052567578628, guid: c80b148b5bb7ab34c9e0e4aed698960c, type: 2}
       propertyPath: m_LocalPosition.z
@@ -46482,6 +46485,11 @@ Prefab:
       propertyPath: m_Name
       value: Bat (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 114264056468116984, guid: c80b148b5bb7ab34c9e0e4aed698960c,
+        type: 2}
+      propertyPath: attacks
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c80b148b5bb7ab34c9e0e4aed698960c, type: 2}
   m_IsPrefabParent: 0
@@ -46631,6 +46639,16 @@ Prefab:
       propertyPath: m_Name
       value: Bat (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 114264056468116984, guid: c80b148b5bb7ab34c9e0e4aed698960c,
+        type: 2}
+      propertyPath: attacks
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114264056468116984, guid: c80b148b5bb7ab34c9e0e4aed698960c,
+        type: 2}
+      propertyPath: attackMult
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c80b148b5bb7ab34c9e0e4aed698960c, type: 2}
   m_IsPrefabParent: 0
@@ -46694,11 +46712,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4372633424724074, guid: 317b65bc5b3f73b40af41e2b0ca6656d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 49.4
+      value: 49.03
       objectReference: {fileID: 0}
     - target: {fileID: 4372633424724074, guid: 317b65bc5b3f73b40af41e2b0ca6656d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -19.08
+      value: -18.69
       objectReference: {fileID: 0}
     - target: {fileID: 4372633424724074, guid: 317b65bc5b3f73b40af41e2b0ca6656d, type: 2}
       propertyPath: m_LocalPosition.z
@@ -46791,6 +46809,21 @@ Prefab:
       propertyPath: soundDelay
       value: 0.27
       objectReference: {fileID: 0}
+    - target: {fileID: 114151954567308014, guid: 317b65bc5b3f73b40af41e2b0ca6656d,
+        type: 2}
+      propertyPath: moveSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114151954567308014, guid: 317b65bc5b3f73b40af41e2b0ca6656d,
+        type: 2}
+      propertyPath: moveSoundDelay
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114151954567308014, guid: 317b65bc5b3f73b40af41e2b0ca6656d,
+        type: 2}
+      propertyPath: keyPickup
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 317b65bc5b3f73b40af41e2b0ca6656d, type: 2}
   m_IsPrefabParent: 0
@@ -46804,6 +46837,7 @@ GameObject:
   - component: {fileID: 1766077467}
   - component: {fileID: 1766077468}
   - component: {fileID: 1766077469}
+  - component: {fileID: 1766077470}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -46841,6 +46875,7 @@ MonoBehaviour:
   playerDeath: {fileID: 1406548860153936, guid: 75a4bff558ba11546b43471ba7bd0d6b,
     type: 2}
   iTime: 2
+  keyPickup: {fileID: 1766077470}
   respawnTime: 2
   platforms:
   - {fileID: 259331572}
@@ -46870,6 +46905,87 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 243310255951009066, guid: 275ff25517a822e4eac1fd011149ea86,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 77581427743d1e54c8ceb4f650fee0e1, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &1766077470
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1766077466}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 243310255951009066, guid: 275ff25517a822e4eac1fd011149ea86,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: a8da8e1ee12cc104fa2f60d4a9b30fa3, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -47136,7 +47252,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.37, y: -3.02}
+  m_AnchoredPosition: {x: -3.3, y: -2.74}
   m_SizeDelta: {x: 3, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1805897956
@@ -47240,6 +47356,16 @@ Prefab:
       propertyPath: m_Name
       value: Bat (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 114264056468116984, guid: c80b148b5bb7ab34c9e0e4aed698960c,
+        type: 2}
+      propertyPath: attacks
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114264056468116984, guid: c80b148b5bb7ab34c9e0e4aed698960c,
+        type: 2}
+      propertyPath: aggroRange
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c80b148b5bb7ab34c9e0e4aed698960c, type: 2}
   m_IsPrefabParent: 0
@@ -47328,7 +47454,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

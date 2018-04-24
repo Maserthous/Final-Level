@@ -121,11 +121,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f01385dc547ddc45ac20ad6879593ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 1.75
   minDistance: 4
-  maxDistance: 16
-  aggroRange: 10
-  attackMult: 4
+  maxDistance: 15
+  aggroRange: 5
+  attackMult: 2.5
   attackDelay: 2.5
   faceLeft: 1
   attacks: 0
