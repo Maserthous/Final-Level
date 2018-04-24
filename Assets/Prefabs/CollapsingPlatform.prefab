@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12f467044cb2c02418e2d2fe4f1cce04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collapseTime: 3
+  collapseTime: 2
   animationSpeed: 0.15
 --- !u!212 &212745372806011028
 SpriteRenderer:
