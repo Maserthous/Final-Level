@@ -3,13 +3,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
 
     public static GameController game;
 
+    private bool gameOver;
+
     [Header("GUI")]
     public Text textHealth;
+    public Text textGameOver;
+    public Text textRestart;
 
     [Header("Player")]
     public GameObject player;
@@ -42,7 +47,10 @@ public class GameController : MonoBehaviour {
 	
 	
 	void Update () {
-        
+        if (gameOver && Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
 
     public void UpdateHealth()
@@ -86,6 +94,9 @@ public class GameController : MonoBehaviour {
     {
         Instantiate(playerDeath, player.transform.position, player.transform.rotation);
         Destroy(player);
+        gameOver = true;
+        textGameOver.gameObject.SetActive(true);
+        textRestart.gameObject.SetActive(true);
     }
 
     IEnumerator Invincible()
@@ -104,13 +115,9 @@ public class GameController : MonoBehaviour {
             {
                 if (!platforms[i].activeSelf)
                 {
-
                     yield return new WaitForSeconds(respawnTime);
                     
                     platforms[i].SetActive(true);
-                    
-                   
-                    
                 }
                 
             }
