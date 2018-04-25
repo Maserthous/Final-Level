@@ -22,6 +22,7 @@ public class GameController : MonoBehaviour {
     public GameObject player;
     public int playerHealth;
     public GameObject playerDeath;
+    public Vector3 deathOffset;
     public float iTime;
     public AudioSource keyPickup;
     public AudioSource winSound;
@@ -97,7 +98,7 @@ public class GameController : MonoBehaviour {
 
     public void Death()
     {
-        Instantiate(playerDeath, player.transform.position, player.transform.rotation);
+        Instantiate(playerDeath, player.transform.position + deathOffset, player.transform.rotation);
         Destroy(player);
         gameOver = true;
         textGameOver.gameObject.SetActive(true);
@@ -106,12 +107,12 @@ public class GameController : MonoBehaviour {
     
     public void Win()
     {
-        gameOver = true;
         textWinner.gameObject.SetActive(true);
-        textRestart.gameObject.SetActive(true);
+        textHealth.gameObject.SetActive(false);
+        Instantiate(playerDeath, player.transform.position + deathOffset, player.transform.rotation);
+        Destroy(player);
         winSound.Play();
         music.TransitionTo(1);
-        Time.timeScale = 0;
     }
 
     IEnumerator Invincible()
