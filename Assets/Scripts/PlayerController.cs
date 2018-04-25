@@ -81,6 +81,11 @@ public class PlayerController : MonoBehaviour
             anim.SetBool("attack", true);
             
         }
+
+        if (Input.GetButtonDown("Fire2"))
+        {
+            GameController.game.SetKey(true);
+        }
     }
 
     private void FixedUpdate()
