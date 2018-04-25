@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class GameController : MonoBehaviour {
 
@@ -23,6 +24,9 @@ public class GameController : MonoBehaviour {
     public GameObject playerDeath;
     public float iTime;
     public AudioSource keyPickup;
+    public AudioSource winSound;
+    public AudioMixerSnapshot music;
+
 
     private bool key;
     private PlayerController pc;
@@ -105,6 +109,8 @@ public class GameController : MonoBehaviour {
         gameOver = true;
         textWinner.gameObject.SetActive(true);
         textRestart.gameObject.SetActive(true);
+        winSound.Play();
+        music.TransitionTo(1);
         Time.timeScale = 0;
     }
 
