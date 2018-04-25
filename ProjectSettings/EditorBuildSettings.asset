@@ -6,5 +6,5 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Completed Level.unity
-    guid: 6d2b3b41debe8dc4f97c7f1d7d047296
+    path: Assets/Special Wally Hard Mode.unity
+    guid: 47ab7f385079c6b44880ffc5fe9ee17d
