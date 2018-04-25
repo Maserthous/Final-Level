@@ -9,6 +9,7 @@ public class DoorScript : MonoBehaviour {
         if ((other.tag == "Player" || other.tag == "Hitbox") && GameController.game.GetKey())
         {
             this.GetComponent<Animator>().SetBool("open", true);
+            this.GetComponent<BoxCollider2D>().enabled = false;
         }
     }
 }
