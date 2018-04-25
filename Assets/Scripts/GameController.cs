@@ -15,6 +15,7 @@ public class GameController : MonoBehaviour {
     public Text textHealth;
     public Text textGameOver;
     public Text textRestart;
+    public Text textWinner;
 
     [Header("Player")]
     public GameObject player;
@@ -97,6 +98,14 @@ public class GameController : MonoBehaviour {
         gameOver = true;
         textGameOver.gameObject.SetActive(true);
         textRestart.gameObject.SetActive(true);
+    }
+    
+    public void Win()
+    {
+        gameOver = true;
+        textWinner.gameObject.SetActive(true);
+        textRestart.gameObject.SetActive(true);
+        Time.timeScale = 0;
     }
 
     IEnumerator Invincible()
